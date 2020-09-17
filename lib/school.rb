@@ -7,12 +7,11 @@ class School
   end 
   
   def roster=(roster)
-    @roster = roster.length
-    
+    @roster = roster
   end 
   
-  def length=(student_roster)
-    @length = student_roster
+  def length=(length)
+    @length = length
   end 
   
   def add_student=(student)
