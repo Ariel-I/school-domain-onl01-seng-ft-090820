@@ -2,7 +2,7 @@ class School
   
   attr_reader :name, :roster, :add_student, :length
   
-  def initialize(name,roster)
+  def initialize(name, roster)
     @name = name
     @roster = roster.length
   end 
