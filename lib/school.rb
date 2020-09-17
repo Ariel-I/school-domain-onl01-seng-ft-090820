@@ -11,6 +11,8 @@ class School
    if @roster.keys.include?(grade)
      @roster[grade] << student 
      @roster[grade]
+   else
+     @roster[grade]=student 
  end 
   
   end 
