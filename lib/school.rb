@@ -21,6 +21,8 @@ class School
     return @roster[grade]
   end 
 
+def sort 
+  
   
 end 
   
