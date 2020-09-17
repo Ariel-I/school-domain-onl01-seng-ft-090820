@@ -6,8 +6,9 @@ class School
     @name = name
   end 
   
-  def roster=(num=[])
-    @roster = num 
+  def roster=(roster)
+    @roster = roster.length
+    
   end 
   
   def length=(student_roster)
