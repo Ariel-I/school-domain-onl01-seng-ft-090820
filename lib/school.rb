@@ -8,7 +8,8 @@ class School
   end 
   
   def add_student(student, grade)
-   roster(level) ||
+   
+   roster << grade, student
   
   end 
 
