@@ -10,7 +10,7 @@ class School
     @roster = roster
   end 
   
-  def length=(length)
+  def length=(length=[])
     @length = length
   end 
   
