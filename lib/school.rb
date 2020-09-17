@@ -13,7 +13,7 @@ class School
      @roster[grade] << student 
      @roster[grade]
    else
-    return  @roster[grade]= [student] 
+    @roster[grade]= [student] 
    end 
   end
   
