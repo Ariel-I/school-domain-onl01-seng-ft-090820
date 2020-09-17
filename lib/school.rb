@@ -22,7 +22,7 @@ class School
   end 
 
 def sort 
-  @roster.each |a,b|
+  @roster.each {|student, grade|
   
 end 
   
