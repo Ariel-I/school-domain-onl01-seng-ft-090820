@@ -14,9 +14,11 @@ class School
      @roster[grade]
    else
      @roster[grade]=student 
- end 
+   end 
+  end
   
-  end 
+  def grade
+    
 
   
 end 
