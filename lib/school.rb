@@ -4,11 +4,9 @@ class School
   
   def initialize(name)
     @name = name
+    @roster 
   end 
   
-   def roster(num)
-     @roster.length = num
-   end 
   
 end 
   
