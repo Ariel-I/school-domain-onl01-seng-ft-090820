@@ -8,8 +8,8 @@ class School
   end 
   
   def add_student(student, grade)
-   if roster(grade) == true 
-   roster << student
+   if @roster(grade) == true 
+   @roster(grade) << student
   
   end 
 
