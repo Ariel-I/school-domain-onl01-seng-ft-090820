@@ -6,7 +6,7 @@ class School
     @name = name
   end 
   
-  def roster=(num)
+  def roster=(num=[])
     @roster = num 
   end 
   
